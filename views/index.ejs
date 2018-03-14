@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flip For It</title>
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Heads OR Tails?</h1>
+
+  <h2>Flip for It</h2>
+
+  <img id="coin" src="" alt="">
+
+    <h2>Enter your name and guess away</h2>
+  <form action="/records" method="POST">
+
+    <input id="name" type="text" name="userName" value="" placeholder="Name" autofocus>
+    <input id="guess" type="text" name="flipResults" value="" placeholder="Heads or Tails?">
+    <button id="flipBtn" type="submit">Submit</button>
+
+
+  </form>
+  <div class="records">
+
+    <table>
+       <tr>
+          <th>Player</th>
+          <th>Total # of Guesses</th>
+          <th># of Correct Guesses</th>
+          <th>Coin Flip Results</th>
+          <th>Delete</th>
+       </tr>
+       <% for(var i=0; i<records.length; i++){%>
+
+
+        <tr>
+          <td id="userName"><%= records[i].userName %></td>
+          <td id="totalG" name="totalG"><%= records[i].totalG %></td>
+          <td id="totalC" name="totalC"><%= records[i].totalC %></td>
+          <td id="flipResults"><%= records[i].flipResults %></td>
+          <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+        </tr>
+           <%} %>
+    </table>
+
+  </div>
+<h3>KMedinaTheDev</h3>
+<div id="space-invaderB">
+</div>
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>

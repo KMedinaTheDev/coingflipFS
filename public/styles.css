@@ -1,0 +1,133 @@
+
+form{
+  margin-left: 28%;
+}
+
+html{
+  background: url('cflip.gif');
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+  background-position: 0 30%;
+  text-align: center;
+}
+h1{
+  margin-top: 5%;
+  margin-left: 30%;
+}
+h2{
+  margin-left: 30%;
+}
+h3{
+  margin-left: 30%;
+  margin-top: 3%;
+  color: gold;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 2em;
+}
+img{
+  margin-left: 50%;
+}
+table {
+  width: 50%;
+  margin: 10% 0 0 40%;
+  border-collapse: collapse;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+th {
+  background: #333;
+  color: white;
+  font-weight: bold;
+}
+td, th {
+  padding: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+#space-invaderG{
+
+  box-shadow:
+    0 0 0 1em green,
+    0 1em 0 1em green,
+    -2.5em 1.5em 0 .5em green,
+    2.5em 1.5em 0 .5em green,
+    -3em -3em 0 0 green,
+    3em -3em 0 0 green,
+    -2em -2em 0 0 green,
+    2em -2em 0 0 green,
+    -3em -1em 0 0 green,
+    -2em -1em 0 0 green,
+    2em -1em 0 0 green,
+    3em -1em 0 0 green,
+    -4em 0 0 0 green,
+    -3em 0 0 0 green,
+    3em 0 0 0 green,
+    4em 0 0 0 green,
+    -5em 1em 0 0 green,
+    -4em 1em 0 0 green,
+    4em 1em 0 0 green,
+    5em 1em 0 0 green,
+    -5em 2em 0 0 green,
+    5em 2em 0 0 green,
+    -5em 3em 0 0 green,
+    -3em 3em 0 0 green,
+    3em 3em 0 0 green,
+    5em 3em 0 0 green,
+    -2em 4em 0 0 green,
+    -1em 4em 0 0 green,
+    1em 4em 0 0 green,
+    2em 4em 0 0 green;
+
+    background: green;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 0 70px 65%;
+
+  }
+  #space-invaderB{
+
+  box-shadow:
+    0 0 0 1em green,
+    0 1em 0 1em green,
+    -2.5em 1.5em 0 .5em black,
+    2.5em 1.5em 0 .5em black,
+    -3em -3em 0 0 black,
+    3em -3em 0 0 black,
+    -2em -2em 0 0 black,
+    2em -2em 0 0 black,
+    -3em -1em 0 0 black,
+    -2em -1em 0 0 black,
+    2em -1em 0 0 black,
+    3em -1em 0 0 black,
+    -4em 0 0 0 black,
+    -3em 0 0 0 black,
+    3em 0 0 0 black,
+    4em 0 0 0 black,
+    -5em 1em 0 0 black,
+    -4em 1em 0 0 black,
+    4em 1em 0 0 black,
+    5em 1em 0 0 black,
+    -5em 2em 0 0 black,
+    5em 2em 0 0 black,
+    -5em 3em 0 0 black,
+    -3em 3em 0 0 black,
+    3em 3em 0 0 black,
+    5em 3em 0 0 black,
+    -2em 4em 0 0 black,
+    -1em 4em 0 0 black,
+    1em 4em 0 0 black,
+    2em 4em 0 0 black;
+
+    background: green;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+
+    margin: 50px 0 70px 65%;
+
+  }
