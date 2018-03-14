@@ -1,4 +1,4 @@
-![Coin Flip FULL STACK APP](public/flip.FS.png)
+![Coin Flip FULL STACK APP](public/flipFS.png)
 
 ## Installation
 
